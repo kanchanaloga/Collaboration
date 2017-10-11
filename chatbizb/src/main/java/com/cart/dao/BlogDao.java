@@ -16,6 +16,9 @@ public interface BlogDao {
 
 	Blog getBlogById(String blogId);
 	
+	
+	
+	
 	Blog updateBlog(String blogId,Blog blog);
 	
 	void increaseLikes(String blogId);
